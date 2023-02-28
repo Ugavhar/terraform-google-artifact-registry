@@ -1,5 +1,5 @@
 module "my-repository" {
-    source = "./module"
+    source = "Ugavhar/terraform-google-artifact-registry"
     artifact-config ={
         repository_id = "nodejs-repo"
         location      = "us-central1"
